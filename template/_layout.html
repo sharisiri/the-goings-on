@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>{{ title }}</title>
+	<link rel="stylesheet" href="static/style.css">
+	<link rel="icon" type="image/png" href="static/favicon.png"/>
+  	<link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">  
+</head>
+
+<body>
+	
+	<div class="logo">
+		<a href="https://thegoingson.com/"><img src="static/thegoingson.svg"></a>
+	</div>
+
+	<div class="container">
+		<div class="iframes_container">
+			<div class="iframes">
+			<ul>
+			{% for iframe in iframes %}
+				<li>{{ iframe }}</li>
+			{% endfor %}
+			</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p><a href="https://808.engineering/" target="_blank">808 Engineering AB</a></p>
+	</div>
+
+</body>
+</html>
