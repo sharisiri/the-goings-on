@@ -2,7 +2,7 @@ name: Scraper
 
 on:
   schedule:
-    - cron:  '0 0 * * *'
+    #- cron:  '0 0 * * *' <-- Remove comment for nightly data refresh
 
   workflow_dispatch:
     inputs:
