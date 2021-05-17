@@ -4,4 +4,4 @@ This is a simple Bandcamp "API" that takes the last 20 tracks from your collecti
 
 There is still some work to be done. The site not entirely mobile friendly. Some tracks do not have the iframe share option and therefore cannot be used. Track order changes after each update - Haven't found a way to sort the tracks chronologically yet.
 
-Bandcamp, if you see this - I support you 100% and therefore the script only collects data once every night. No malicious intent at all. I only want to share the great music that I love on your platform!
+Bandcamp, if you see this - I support you 100%. The script only collects data once every night to reduce the number of "calls" made. No malicious intent at all. I only want to share the great music that I love on your platform!
